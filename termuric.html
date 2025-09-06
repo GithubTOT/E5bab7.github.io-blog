@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Termuric | Kannpo Medicine</title>
+  <meta name="description" content="Termuric overview page." />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  
+<header>
+  <div class="container nav">
+    <div class="brand">
+      <div class="logo" aria-hidden="true"></div>
+      <strong>Kannpo Medicine</strong>
+      <span class="tag">Herbal & Wellness</span>
+    </div>
+    <nav>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileMenu">Menu</button>
+      <ul id="desktopMenu">
+        <li><a href="/index.html#about">About Us</a></li>
+        <li class="menu-item">
+          <a href="javascript:void(0)">Supplyment ▾</a>
+          <div class="submenu" role="menu" aria-label="Supplyment submenu">
+            <a href="/alpha-gpc.html" role="menuitem">Alpha GPC</a>
+            <a href="/co-q10.html" role="menuitem">Co Q10</a>
+            <a href="/termuric.html" role="menuitem">Termuric</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container" id="mobileMenu" hidden>
+    <ul style="display:grid;gap:12px;list-style:none;margin:0;padding:12px 0">
+      <li><a href="/index.html#about">About Us</a></li>
+      <li><details class="card"><summary><strong>Supplyment</strong></summary>
+        <div style="display:grid;gap:8px;padding-top:8px">
+          <a href="/alpha-gpc.html">Alpha GPC</a>
+          <a href="/co-q10.html">Co Q10</a>
+          <a href="/termuric.html">Termuric</a>
+        </div>
+      </details></li>
+    </ul>
+  </div>
+</header>
+
+  <section class="hero">
+    <div class="container wrap">
+      <div>
+        <span class="tag">Supplyment</span>
+        <h1>Termuric</h1>
+        <p>Often marketed as turmeric/curcumin. Many products include black pepper extract (piperine) or specialized forms to aid absorption.</p>
+      </div>
+      <div class="card">
+        <strong>At‑a‑glance</strong>
+        <ul style="margin:.4rem 0 0 1rem; color:var(--muted)">
+          <li>Label servings vary (e.g., 500–1500 mg turmeric or curcumin complexes).</li><li>Some labels advise taking with meals; follow your product instructions.</li><li>Color can stain surfaces; store and handle accordingly.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="grid cards">
+        <article class="card">
+          <h3>Typical label directions</h3>
+          <p>Always follow the specific brand label. Serving sizes and cautions vary by product.</p>
+        </article>
+        <article class="card">
+          <h3>Safety notes</h3>
+          <p>Use caution if you have gallbladder issues or take anticoagulant medicines; professional advice is recommended.</p>
+        </article>
+        <article class="card">
+          <h3>Good to know</h3>
+          <p>This page is for general information only and is not medical advice. If you have health conditions, are pregnant, or take medicines, seek professional guidance.</p>
+        </article>
+      </div>
+      <p style="color:var(--muted);margin-top:12px">Back to <a href="/index.html">Home</a>.</p>
+    </div>
+  </section>
+
+  
+<footer>
+  <div class="container" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap">
+    <small>© <span id="year"></span> Kannpo Medicine. All rights reserved.</small>
+    <small>Information is educational only and not medical advice.</small>
+  </div>
+</footer>
+<script src="/script.js"></script>
+
+</body>
+</html>

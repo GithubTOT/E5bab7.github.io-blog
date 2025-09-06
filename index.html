@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kannpo Medicine | Home</title>
+  <meta name="description" content="Kannpo Medicine — Herbal & wellness essentials." />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  
+<header>
+  <div class="container nav">
+    <div class="brand">
+      <div class="logo" aria-hidden="true"></div>
+      <strong>Kannpo Medicine</strong>
+      <span class="tag">Herbal & Wellness</span>
+    </div>
+    <nav>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileMenu">Menu</button>
+      <ul id="desktopMenu">
+        <li><a href="/index.html#about">About Us</a></li>
+        <li class="menu-item">
+          <a href="javascript:void(0)">Supplyment ▾</a>
+          <div class="submenu" role="menu" aria-label="Supplyment submenu">
+            <a href="/alpha-gpc.html" role="menuitem">Alpha GPC</a>
+            <a href="/co-q10.html" role="menuitem">Co Q10</a>
+            <a href="/termuric.html" role="menuitem">Termuric</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container" id="mobileMenu" hidden>
+    <ul style="display:grid;gap:12px;list-style:none;margin:0;padding:12px 0">
+      <li><a href="/index.html#about">About Us</a></li>
+      <li><details class="card"><summary><strong>Supplyment</strong></summary>
+        <div style="display:grid;gap:8px;padding-top:8px">
+          <a href="/alpha-gpc.html">Alpha GPC</a>
+          <a href="/co-q10.html">Co Q10</a>
+          <a href="/termuric.html">Termuric</a>
+        </div>
+      </details></li>
+    </ul>
+  </div>
+</header>
+
+  <section class="hero">
+    <div class="container wrap">
+      <div>
+        <span class="tag">Welcome</span>
+        <h1>Kannpo Medicine</h1>
+        <p>We share practical, concise information about everyday wellness and traditional-inspired supplements. Explore clear product pages and simple guidance — no hype, just facts.</p>
+        <div class="cta">
+          <a class="btn" href="#about">About Us</a>
+          <a class="btn" href="/alpha-gpc.html">Browse Supplyment</a>
+        </div>
+      </div>
+      <div class="card">
+        <strong>What you'll find</strong>
+        <ul style="margin:.4rem 0 0 1rem; color:var(--muted)">
+          <li>Plain‑language product overviews</li>
+          <li>Suggested use ranges from brand labels</li>
+          <li>Safety notes & “when to talk to a professional”</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="grid cards">
+        <article class="card">
+          <h3>About Us</h3>
+          <p>Kannpo Medicine is a small, Auckland‑based project that curates readable pages on common supplements. We don’t sell products; we summarise what typical product labels say and highlight prudent safety notes.</p>
+        </article>
+        <article class="card">
+          <h3>Our Approach</h3>
+          <p>Simple pages, consistent structure, and links to learn more. We avoid exaggerated claims and encourage checking with a qualified clinician for personal advice.</p>
+        </article>
+        <article class="card">
+          <h3>Explore</h3>
+          <p>Start with <a href="/alpha-gpc.html">Alpha GPC</a>, <a href="/co-q10.html">Co Q10</a>, or <a href="/termuric.html">Termuric</a>.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>Highlights</h2>
+      <div class="grid gallery" style="margin-top:14px">
+        <a href="/alpha-gpc.html" aria-label="Alpha GPC"><img src="https://picsum.photos/seed/alpha/800/600" alt="Alpha GPC"></a>
+        <a href="/co-q10.html" aria-label="Co Q10"><img src="https://picsum.photos/seed/coq10/800/600" alt="Co Q10"></a>
+        <a href="/termuric.html" aria-label="Termuric"><img src="https://picsum.photos/seed/turmeric/800/600" alt="Termuric"></a>
+      </div>
+    </div>
+  </section>
+
+  
+<footer>
+  <div class="container" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap">
+    <small>© <span id="year"></span> Kannpo Medicine. All rights reserved.</small>
+    <small>Information is educational only and not medical advice.</small>
+  </div>
+</footer>
+<script src="/script.js"></script>
+
+</body>
+</html>
